@@ -1,47 +1,116 @@
-/* reset  */
+                    /* reset  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* commons  */
-html{
-    font-family: 'Open Sans', sans-serif;
-}
+                    /* /reset  */
+                    /* commons  */
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
-/* btn  */
-.button{
-    height: 30px;
-    /* background-color: green; */
-    text-align: center;
-    line-height: 30px;
-}
-.button a{
-    text-decoration: none;
-    padding: 20px;
-    color: white;
-}
 .bck-color1{
     background-color: #0065FF;
+}
+.light-color{
+    color: lightgray;
+}
+.color-zero{
+    color: inherit;
 }
 .container-large{
     max-width: 1300px;
     margin: auto;
     background-color: #B4D0E6;
 }
-/* header */
+.container-small{
+    max-width: 1080px;
+    margin: auto;
+    /* background-color: aquamarine; */
+}
+.right-align {
+    float: right;
+}
+h1{
+    padding-top: 140px;
+    font-size: 80px;
+
+}
+h2{
+    padding-top: 150px;
+    font-size: 40px;
+}
+div input{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+label{
+    margin-right: 20px;
+}
+h3{
+    font-size: 28px;
+    display: inline-block;
+}
+h4{
+    margin-bottom: 15px;
+}
+p a {
+    text-decoration: none;
+    color: #0065FF;
+}
+hr{
+    width: 20%;
+    color: #D0D0D3;
+
+}
+li i{
+    color: #0065FF;
+    margin-right: 3px;
+    font-weight: bold;
+}
+p i{
+    margin-right: 3px;
+}
+                    /* /commons  */
+                     /* button  */
+.button{
+    height: 30px;
+    min-width: 80px;
+    display: inline-block;
+    
+    /* background-color: green; */
+}
+.button a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    /* font-weight: bold; */
+}
+                    /* /button  */
+                    /* typo  */
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+.left-col-hero p, div span{
+    font-weight: bold;
+}
+                    /* /typo  */
+                    /* header */
 header{
     min-width: 100%;
     min-height: 90px;
-    /* position: fixed;
-    z-index: 8; */
+    position: fixed;
+    z-index: 8;
     background-color: white;
 }
-/* navigation left */
+                    /* navigation left */
 .left-col-nav{
     float: left;
     width: 50%;
@@ -52,7 +121,7 @@ header{
     padding: 30px 30px;
     vertical-align: middle;
 }
-.left-nav-txt, .button, .right-nav-txt{
+.left-nav-txt, .right-nav-txt{
     display: inline-block;
     vertical-align: middle;
 }
@@ -60,8 +129,9 @@ header{
     text-decoration: none;
     margin-right: 30px;
     color: inherit;
+    font-weight: bold;
 }
-/* navigation right  */
+                    /* navigation right  */
 .right-col-nav{
     text-align: right;
     width: 50%;
@@ -71,39 +141,77 @@ header{
 #no-margin{
     margin: 0;
 }
-/* body - section 1 - hero  */
-.section-1{
+                    /* /header  */
+                    /* main - hero - section  */
+.section-hero{
     background-color: #B4D0E6;
 }
-h1{
-    padding-top: 50px;
-    font-size: 80px;
-
-}
-/* left side hero  */
+                    /* left side hero  */
 .left-col-hero{
     padding-top: 30px;
     float: left;
     width: 30%;
 }
 .button-hero{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 .arrow{
     padding: 30px;
     font-size: 30px;
 }
-/* right side hero  */
+                    /* right side hero  */
 .right-col-hero{
     float: right;
     width: 60%;
 }
 .right-col-hero img{
-    height: 500px;
+    height: 100%;
+    width: 100%;
     padding: 30px;
 }
-
-#smaller, .section-1{
-    height: 650px;
+                    /* /main - hero - section  */
+#smaller{
+    height: 740px;
 }
+
+                    /* plans section  */
+.plans-left-col, .plans-middle-col, .plans-right-col{
+    float: left;
+    /* background-color:fuchsia; */
+    width: calc(100% / 3 - 40px);
+    height: 900px;
+    margin: 0 60px;
+    border: solid #D0D0D3 1px;
+}
+.plan-user {
+    text-align: center;
+    border-bottom: solid #D0D0D3 1px;
+}
+.plan-user p, .plan-info p{
+    padding: 8px 0;
+}
+.plan-info{
+    padding: 25px;
+}
+.button-plans{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.plan-info ul li{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.plan-info ul{
+    list-style-type: none;
+}
+.col-bottom{
+    margin-top: 50px;
+    width: 100%;
+    border: solid #D0D0D3 1px;
+}
+.button-plans-b a{
+    padding: 0 60px;
+}
+                    /* /plans section  */
