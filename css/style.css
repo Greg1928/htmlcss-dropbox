@@ -61,7 +61,7 @@ p a {
     color: #0065FF;
 }
 hr{
-    width: 20%;
+    max-width: 50px;
     color: #D0D0D3;
 
 }
@@ -100,6 +100,9 @@ p i{
 }
 .color-block8{
     background-color: #FFD830;
+}
+.font-color1{
+    color: #0065FF;
 }
                     /* /commons  */
                      /* button  */
@@ -281,30 +284,32 @@ header{
     display: block;
 }
                     /* /operations section  */
-                    /* Business section  */
+                    /* Business top section  */
 .business{
     margin-top: 150px;
     height: 700px;
 }
 .business h3{
     max-width: 50%;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
 }
 
 .business-block{
-    margin-top: 40px;
+    margin-top: 60px;
 
 }
-.right-general{
+.right-big-block{
     float: right;
     width: 30%;
 }
-.left-general{
+.left-big-block{
     float: left;
     width: 30%;
 }
-.center-general{
-    height: 570.88px;
+.center-big-block{
+    height: 455.76px;
     float: left;
     width: 40%;
     background-color: #F5F5F5;
@@ -312,16 +317,52 @@ header{
 .small-block-business{
     float: left;
     width: 50%;
-    height: 285.44px;
+    height: 227.88px;
     position: relative;
 }
+#border{
+    border: solid #D0E9CD 10px;
+}
 .small-block-business img{
+    padding: 20px;
     width: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    color: white;
+    filter: invert(1);
 }
-
-
+.center-Business{
+    padding: 40px 40px;
+}
+.center-Business img{
+    margin-bottom: 40px;
+    width: 20%;
+}
+.center-Business p:last-child{
+    margin-top: 40px;
+}
+                    /* /Business top section  */
+                    /* Business bottom section  */
+.bottom-business{
+    background-color: #B4D0E7;
+    height: 300px;
+}
+.bottom-business h3{
+    margin-top: 80px;
+    float: left;
+    width: 60%;
+    font-size: 40px;
+    color: #61082B;
+}
+.button-business{
+    float: right;
+    width: 30%;
+    background-color: white;
+    margin-top: 80px;
+}
+.button-business a{
+    color: inherit;
+    padding: 0 20px;
+}
+                    /* /Business bottom section  */
