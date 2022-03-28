@@ -176,6 +176,9 @@ header{
 }
 
                     /* plans section  */
+.plans{
+    margin-bottom: 120px;
+}
 .plans-left-col, .plans-middle-col, .plans-right-col{
     float: left;
     /* background-color:fuchsia; */
@@ -215,3 +218,26 @@ header{
     padding: 0 60px;
 }
                     /* /plans section  */
+                    /* partner section  */
+.parter-col-left{
+    float: left;
+    width: 57%;
+}
+.parter-col-left img{
+    width: 100%;
+    height: 100%;
+}   
+.partenr-col-right{
+    float: right;
+    width: 37%;
+}
+.partenr-col-right h4{
+    padding-top: 30px;
+} 
+.button-partner{
+    margin-top: 20px;
+    border: solid black 1px;
+}
+.button-partner a{
+    color: black;
+}                /* /partner section  */
