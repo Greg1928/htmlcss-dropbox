@@ -287,7 +287,6 @@ header{
                     /* Business top section  */
 .business{
     margin-top: 150px;
-    height: 700px;
 }
 .business h3{
     max-width: 50%;
@@ -364,5 +363,26 @@ header{
 .button-business a{
     color: inherit;
     padding: 0 20px;
+}                   /* /Business bottom section  */
+                    /* faq-section  */
+.faq-section{
+    margin: 100px 0;
 }
-                    /* /Business bottom section  */
+.faq-section h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.faq-section p{
+    margin: 30px 0;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+}
+.faq-section hr{
+    min-width: 100%;
+}
+.fa-angle-down{
+    float: right;
+    padding: 30px;
+}
+                     /* /faq-section  */
