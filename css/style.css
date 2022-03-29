@@ -18,12 +18,11 @@
     color: lightgray;
 }
 .color-zero{
-    color: inherit;
+    color: black;
 }
 .container-large{
     max-width: 1300px;
     margin: auto;
-    background-color: #B4D0E6;
 }
 .container-small{
     max-width: 1080px;
@@ -32,6 +31,9 @@
 }
 .right-align {
     float: right;
+}
+p{
+    font
 }
 h1{
     padding-top: 140px;
@@ -101,8 +103,17 @@ p i{
 .color-block8{
     background-color: #FFD830;
 }
+.color-block9{
+    background-color: #B4D0E6;
+}
 .font-color1{
     color: #0065FF;
+}
+footer{
+    background-color: black;
+}
+#font-color2{
+    color: #505050;
 }
                     /* /commons  */
                      /* button  */
@@ -237,7 +248,7 @@ header{
     margin-bottom: 15px;
     font-size: 14px;
 }
-.plan-info ul{
+.plan-info ul, .footer-top-col ul{
     list-style-type: none;
 }
 .col-bottom{
@@ -385,4 +396,26 @@ header{
     float: right;
     padding: 30px;
 }
-                     /* /faq-section  */
+                   /* /faq-section  */
+                    /* footer  */
+.footer-top{
+    padding: 100px 0;
+}
+.footer-top-col{
+    float: left;
+    width: 20%;
+    color: white;
+}
+.footer-top-col li{
+    padding-top: 10px;
+}
+.footer-top-col ul li a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+#long{
+    max-width: 130px;
+    margin-bottom: 40px;
+}
+                    /* /footer  */
