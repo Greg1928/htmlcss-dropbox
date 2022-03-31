@@ -32,9 +32,6 @@
 .right-align {
     float: right;
 }
-p{
-    font
-}
 h1{
     padding-top: 140px;
     font-size: 80px;
@@ -414,7 +411,7 @@ header{
     color: white;
     text-decoration: none;
 }
-#long{
+#long0{
     max-width: 130px;
     margin-bottom: 40px;
 }
